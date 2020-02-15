@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<HTML>
+    <HEAD>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Our First Webpage</title>
+        <link rel="shortcut icon" href="../assets/imgs/favicon.png">
+        <link rel="stylesheet" href="../Repos2/style.css">  
+        <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
+    </HEAD>
+    <BODY>
+        <header class="fixed-bar"> <h1 class="page-title">Mike's World</h1> </header>
+        <nav>
+            <ul class="navigation">
+                <li><a href="../Repos2/index.html">Home</a></li>
+                <li><a href="../Repos2/contact/index.html">Contact</a></li>
+            </ul>
+        </nav>
+        <MAIN>
+            <FORM class="form">
+                <label for="input-name">Name</label>
+                <input type="text" name="name" class="form-input" id="input-name" oninput="checkInput()">
+                <label for="input-mail">Mail</label>
+                <input type="text" name="email" class="form-input" id="input-mail" oninput="checkInput()">
+                <label for="input-message">Your Message</label>
+                <textarea name="message" cols="30" rows="10" class="form-input" id="input-message" oninput="checkInput()"></textarea>
+                <button type="submit" class="submit-button" disabled>Submit</button>
+            </FORM>
+        </MAIN>
+    </BODY>
+</HTML>
